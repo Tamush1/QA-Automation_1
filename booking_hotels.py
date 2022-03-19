@@ -95,5 +95,6 @@ final_step.click()
 payment_page_title = driver.find_element_by_css_selector("[data-component=mob-flight-payment-subHeader]")
 strName = payment_page_title.text
 manual_version = "All card information is fully encrypted, secure and protected."
-
+sleep(10)
+driver.quit()
 
